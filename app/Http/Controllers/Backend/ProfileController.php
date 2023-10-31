@@ -3,18 +3,20 @@
 namespace App\Http\Controllers\Backend;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Contracts\View\View;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\File;
 
 class ProfileController extends Controller
 {
-    public function index()
+    public function index(): View
     {
         return view('admin.profile.index');
     }
 
-    public function updateProfile(Request $request)
+    public function updateProfile(Request $request): RedirectResponse
     {
         $request->validate([
             'name' => ['required', 'max:100'],
@@ -37,6 +39,20 @@ class ProfileController extends Controller
         $user->name = $request->name;
         $user->email = $request->email;
         $user->save();
+
+        return redirect()->back();
+    }
+
+    public function updatePassword(Request $request): RedirectResponse
+    {
+        $request->validate([
+            'current_password' => ['required', 'current_password'],
+            'password' => ['required', 'confirmed', 'min:8']
+        ]);
+
+        $request->user()->update([
+            'password' => bcrypt($request->password)
+        ]);
 
         return redirect()->back();
     }
