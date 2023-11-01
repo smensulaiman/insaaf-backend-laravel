@@ -139,7 +139,7 @@
 <!--isotope js-->
 <script src="{{asset('frontend/js/isotope.pkgd.min.js')}}"></script>
 <!--venobox js-->
-<script src="j{{asset('frontend/s/venobox.min.js')}}"></script>
+<script src="{{asset('frontend/js/venobox.min.js')}}"></script>
 <!--classycountdown js-->
 <script src="{{asset('frontend/js/jquery.classycountdown.js')}}"></script>
 

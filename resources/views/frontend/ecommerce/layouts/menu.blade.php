@@ -330,13 +330,11 @@
     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
         <li class="nav-item" role="presentation">
             <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
-                    role="tab" aria-controls="pills-home" aria-selected="true">Categories
-            </button>
+                    role="tab" aria-controls="pills-home" aria-selected="true">Categories</button>
         </li>
         <li class="nav-item" role="presentation">
             <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
-                    role="tab" aria-controls="pills-profile" aria-selected="false">main menu
-            </button>
+                    role="tab" aria-controls="pills-profile" aria-selected="false">main menu</button>
         </li>
     </ul>
     <div class="tab-content" id="pills-tabContent">
