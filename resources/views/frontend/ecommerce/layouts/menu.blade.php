@@ -106,7 +106,8 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a class="wsus__droap_arrow" href="#"><i class="fas fa-chair-office"></i> Furniture</a>
+                        <li><a class="wsus__droap_arrow" href="#"><i class="fas fa-chair-office"></i>
+                                Furniture</a>
                             <ul class="wsus_menu_cat_droapdown">
                                 <li><a href="#">New Arrivals <i class="fas fa-angle-right"></i></a>
                                     <ul class="wsus__sub_category">
@@ -155,7 +156,8 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a class="wsus__droap_arrow" href="#"><i class="fal fa-mobile"></i> Smart Phones</a>
+                        <li><a class="wsus__droap_arrow" href="#"><i class="fal fa-mobile"></i> Smart
+                                Phones</a>
                             <ul class="wsus_menu_cat_droapdown">
                                 <li><a href="#">New Arrivals <i class="fas fa-angle-right"></i></a>
                                     <ul class="wsus__sub_category">
@@ -306,7 +308,7 @@
                     <ul class="wsus__menu_item wsus__menu_item_right">
                         <li><a href="contact.html">contact</a></li>
                         <li><a href="dsahboard.html">my account</a></li>
-                        <li><a href="login.html">login</a></li>
+                        <li><a href="{{ route('login') }}">login</a></li>
                     </ul>
                 </div>
             </div>
@@ -330,11 +332,11 @@
     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
         <li class="nav-item" role="presentation">
             <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
-                    role="tab" aria-controls="pills-home" aria-selected="true">Categories</button>
+                role="tab" aria-controls="pills-home" aria-selected="true">Categories</button>
         </li>
         <li class="nav-item" role="presentation">
             <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
-                    role="tab" aria-controls="pills-profile" aria-selected="false">main menu</button>
+                role="tab" aria-controls="pills-profile" aria-selected="false">main menu</button>
         </li>
     </ul>
     <div class="tab-content" id="pills-tabContent">
@@ -344,10 +346,10 @@
                     <ul class="wsus_mobile_menu_category">
                         <li><a href="#"><i class="fas fa-star"></i> hot promotions</a></li>
                         <li><a href="#" class="accordion-button collapsed" data-bs-toggle="collapse"
-                               data-bs-target="#flush-collapseThreew" aria-expanded="false"
-                               aria-controls="flush-collapseThreew"><i class="fal fa-tshirt"></i> fashion</a>
+                                data-bs-target="#flush-collapseThreew" aria-expanded="false"
+                                aria-controls="flush-collapseThreew"><i class="fal fa-tshirt"></i> fashion</a>
                             <div id="flush-collapseThreew" class="accordion-collapse collapse"
-                                 data-bs-parent="#accordionFlushExample">
+                                data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <ul>
                                         <li><a href="#">men's</a></li>
@@ -359,10 +361,10 @@
                             </div>
                         </li>
                         <li><a href="#" class="accordion-button collapsed" data-bs-toggle="collapse"
-                               data-bs-target="#flush-collapseThreer" aria-expanded="false"
-                               aria-controls="flush-collapseThreer"><i class="fas fa-tv"></i> electronics</a>
+                                data-bs-target="#flush-collapseThreer" aria-expanded="false"
+                                aria-controls="flush-collapseThreer"><i class="fas fa-tv"></i> electronics</a>
                             <div id="flush-collapseThreer" class="accordion-collapse collapse"
-                                 data-bs-parent="#accordionFlushExample">
+                                data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <ul>
                                         <li><a href="#">Consumer Electronic</a></li>
@@ -373,11 +375,11 @@
                             </div>
                         </li>
                         <li><a href="#" class="accordion-button collapsed" data-bs-toggle="collapse"
-                               data-bs-target="#flush-collapseThreerrp" aria-expanded="false"
-                               aria-controls="flush-collapseThreerrp"><i class="fas fa-chair-office"></i>
+                                data-bs-target="#flush-collapseThreerrp" aria-expanded="false"
+                                aria-controls="flush-collapseThreerrp"><i class="fas fa-chair-office"></i>
                                 furnicture</a>
                             <div id="flush-collapseThreerrp" class="accordion-collapse collapse"
-                                 data-bs-parent="#accordionFlushExample">
+                                data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <ul>
                                         <li><a href="#">home</a></li>
@@ -388,11 +390,11 @@
                             </div>
                         </li>
                         <li><a href="#" class="accordion-button collapsed" data-bs-toggle="collapse"
-                               data-bs-target="#flush-collapseThreerrw" aria-expanded="false"
-                               aria-controls="flush-collapseThreerrw"><i class="fal fa-mobile"></i> Smart
+                                data-bs-target="#flush-collapseThreerrw" aria-expanded="false"
+                                aria-controls="flush-collapseThreerrw"><i class="fal fa-mobile"></i> Smart
                                 Phones</a>
                             <div id="flush-collapseThreerrw" class="accordion-collapse collapse"
-                                 data-bs-parent="#accordionFlushExample">
+                                data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <ul>
                                         <li><a href="#">apple</a></li>
@@ -421,10 +423,10 @@
                     <ul>
                         <li><a href="index.html">home</a></li>
                         <li><a href="#" class="accordion-button collapsed" data-bs-toggle="collapse"
-                               data-bs-target="#flush-collapseThree" aria-expanded="false"
-                               aria-controls="flush-collapseThree">shop</a>
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">shop</a>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                 data-bs-parent="#accordionFlushExample2">
+                                data-bs-parent="#accordionFlushExample2">
                                 <div class="accordion-body">
                                     <ul>
                                         <li><a href="#">men's</a></li>
@@ -439,10 +441,10 @@
                         <li><a href="blog.html">blog</a></li>
                         <li><a href="daily_deals.html">campain</a></li>
                         <li><a href="#" class="accordion-button collapsed" data-bs-toggle="collapse"
-                               data-bs-target="#flush-collapseThree101" aria-expanded="false"
-                               aria-controls="flush-collapseThree101">pages</a>
+                                data-bs-target="#flush-collapseThree101" aria-expanded="false"
+                                aria-controls="flush-collapseThree101">pages</a>
                             <div id="flush-collapseThree101" class="accordion-collapse collapse"
-                                 data-bs-parent="#accordionFlushExample2">
+                                data-bs-parent="#accordionFlushExample2">
                                 <div class="accordion-body">
                                     <ul>
                                         <li><a href="404.html">404</a></li>
