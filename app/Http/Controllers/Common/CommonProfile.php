@@ -14,7 +14,7 @@ class CommonProfile extends Controller
     {
         $request->validate([
             'first_name' => ['required', 'max:100'],
-            'las_name' => ['required', 'max:100'],
+            'last_name' => ['required', 'max:100'],
             'email' => ['required', 'email', 'unique:users,email,' . Auth::user()->id],
             'image' => ['image', 'max:2048']
         ]);
@@ -40,7 +40,6 @@ class CommonProfile extends Controller
         toastr()->success('Profile Updated Successfully');
 
         return redirect()->back();
-
     }
 
     public function updatePassword(Request $request): RedirectResponse
