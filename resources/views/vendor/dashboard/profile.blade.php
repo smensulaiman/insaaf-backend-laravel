@@ -1,4 +1,4 @@
-@extends('frontend.dashboard.layouts.master')
+@extends('vendor.dashboard.layouts.master')
 
 @section('content')
     <div class="row">
@@ -8,7 +8,7 @@
                 <div class="wsus__dashboard_profile">
                     <div class="wsus__dash_pro_area">
                         <h4>basic information</h4>
-                        <form action="{{ route('user.profile') }}" method="POST" enctype="multipart/form-data">
+                        <form action="{{ route('vendor.profile') }}" method="POST" enctype="multipart/form-data">
                             @csrf
                             @method('PUT')
                             <div class="row">
