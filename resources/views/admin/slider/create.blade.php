@@ -23,24 +23,28 @@
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label>Type</label>
-                                        <input type="text" class="form-control" name="type" id="type">
+                                        <input type="text" class="form-control" name="type" id="type"
+                                               value="{{old('type')}}">
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label>Title</label>
-                                        <input type="text" class="form-control" name="title" id="title">
+                                        <input type="text" class="form-control" name="title" id="title"
+                                               value="{{old('title')}}">
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label>Starting Price</label>
                                         <input type="text" class="form-control" name="starting_price"
-                                               id="starting_price">
+                                               id="starting_price" value="{{old('starting_price')}}">
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label>Button URL</label>
-                                        <input type="text" class="form-control" name="btn_url" id="btn_url">
+                                        <input type="text" class="form-control" name="btn_url" id="btn_url"
+                                               value="{{old('btn_url')}}">
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label>Serial</label>
-                                        <input type="text" class="form-control" name="serial" id="serial">
+                                        <input type="text" class="form-control" name="serial" id="serial"
+                                               value="{{old('serial')}}">
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label for="inputStatus">Status</label>
