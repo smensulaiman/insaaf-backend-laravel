@@ -24,8 +24,8 @@ class SliderModelDataTable extends DataTable
         return (new EloquentDataTable($query))
             ->addColumn('action', function ($query){
                 return "<div class='d-flex justify-content-between'>
-                            <a href='". route('admin.slider.edit', $query->id) ."' class='btn btn-primary'><i class='fas fa-edit'></i></a>
-                            <a href='". route('admin.slider.destroy', $query->id) ."' class='btn btn-danger'><i class='fas fa-trash'></i></a>
+                            <a href='". route('admin.slider.edit', $query->id) ."' class='btn btn-primary'><i class='far fa-edit'></i></a>
+                            <a href='". route('admin.slider.destroy', $query->id) ."' class='btn btn-danger'><i class='far fa-trash-alt'></i></a>
                         </div>";
             })
             ->addColumn('banner', function ($query){
